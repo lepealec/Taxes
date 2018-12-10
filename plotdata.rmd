@@ -69,9 +69,19 @@ Net Income   = Total Income - All Tax
 tax_data %>% ggplot(aes(x=Total_Income,y=CA_Tax))+geom_line()+facet_grid(Income_Type~Status)
 ```
 
+### Total Income vs State Tax (%)
+``` {r p11}
+tax_data %>% ggplot(aes(x=Total_Income,y=CA_Tax/Total_Income))+geom_line()+facet_grid(Income_Type~Status)
+```
+
 ### Total Income vs Federal Tax
 ``` {r p2}
 tax_data %>% ggplot(aes(x=Total_Income,y=Federal_Tax))+geom_line()+facet_grid(Income_Type~Status)
+```
+
+### Total Income vs Federal Tax (%)
+``` {r p21}
+tax_data %>% ggplot(aes(x=Total_Income,y=Federal_Tax/Total_Income))+geom_line()+facet_grid(Income_Type~Status)
 ```
 
 ### Total Income vs Medicare Tax
@@ -79,10 +89,20 @@ tax_data %>% ggplot(aes(x=Total_Income,y=Federal_Tax))+geom_line()+facet_grid(In
 tax_data %>% ggplot(aes(x=Total_Income,y=ME_Tax))+geom_line()+facet_grid(Income_Type~Status)
 ```
 
+<!-- ### Total Income vs Medicare Tax (%) -->
+<!-- ``` {r p31} -->
+<!-- tax_data %>% ggplot(aes(x=Total_Income,y=ME_Tax/Total_Income))+geom_line()+facet_grid(Income_Type~Status) -->
+<!-- ``` -->
+
 ### Total Income vs Social Security Tax
 ``` {r p4}
 tax_data %>% ggplot(aes(x=Total_Income,y=SS_Tax))+geom_line()+facet_grid(Income_Type~Status)
 ```
+
+<!-- ### Total Income vs Social Security Tax (%) -->
+<!-- ``` {r p41} -->
+<!-- tax_data %>% ggplot(aes(x=Total_Income,y=SS_Tax/Total_Income))+geom_line()+facet_grid(Income_Type~Status) -->
+<!-- ``` -->
 
 ### Total Income vs Net Income
 ``` {r p5}

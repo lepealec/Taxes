@@ -3,8 +3,12 @@ Features: Social Security, Medicare, Federal, State State Taxes Varying Filing S
 
 
 Links
-  Plots:      https://github.com/lepealec/Taxes/blob/master/plotdata.md
-  Tax Tables: https://github.com/lepealec/Taxes/tree/master/Tax%20Tables
-  Figures:    https://github.com/lepealec/Taxes/tree/master/plotdata_files/figure-html
-  Tax Data:   https://github.com/lepealec/Taxes/blob/master/Tax%20Data.cs
+
+Plots:      https://github.com/lepealec/Taxes/blob/master/plotdata.md
+
+Tax Tables: https://github.com/lepealec/Taxes/tree/master/Tax%20Tables
+
+Figures:    https://github.com/lepealec/Taxes/tree/master/plotdata_files/figure-html
+
+Tax Data:   https://github.com/lepealec/Taxes/blob/master/Tax%20Data.cs
   

@@ -54,7 +54,7 @@ However, being a dependent or not is relevant when calculating tax credit eligib
 Most tax credits, however, do not apply for working individuals, with no children, making $40,000 and above.
 
 ### Important Income Formula
-Total Income = (W2 Income *or* Contractor (1099) Income - Expenses) - Above the Line Deductions
+Total Income = (W2 Income) or (Contractor (1099) Income - Expenses) - Above the Line Deductions
 Net Income   = Total Income - All Tax
 
 ### Total Income vs State Tax

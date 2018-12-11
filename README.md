@@ -10,5 +10,5 @@ Tax Tables: https://github.com/lepealec/Taxes/tree/master/Tax%20Tables
 
 Figures:    https://github.com/lepealec/Taxes/tree/master/plotdata_files/figure-html
 
-Tax Data:   https://github.com/lepealec/Taxes/blob/master/Tax%20Data.cs
+Tax Data:   https://github.com/lepealec/Taxes/blob/master/Tax%20Data.csv
   
